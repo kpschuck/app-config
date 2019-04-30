@@ -12,12 +12,12 @@ properties:
 hibernate: 
   ddl-auto: update
  
-greetingLanguage: Hello
+greeting: Hello
 ---
 spring: 
 profiles: dev
-greetingLanguage: Hola
+greeting: Hola
 ---
 spring: 
 profiles: prod
-greetingLanguage: Hallo
+greeting: Hallo
